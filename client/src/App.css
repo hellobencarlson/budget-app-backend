@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+ h1, h2, h3 {
+   font-style: italic;
+   margin: 0 auto;
+   text-align: center;
+   color: navy;
+   padding-top: 15px;
+ }
+
+.warning {
+  padding: 2px;
+  background-color: pink;
+  text-align: center;
+}
+
+.edit-accounts {
+  margin-top: 10px;
+}
+
+.total {
+  text-align: center;
+}
+
+#accountOption, #expenseOption {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-top: -20px;
+}
+
+div {
+   border-radius: 5px;
+ }
+
+ nav {
+   background-color: #6456ff;
+   font-family: 'Raleway', sans-serif;
+ }
+
+
+ .body {
+   background-color: #847ce6;
+   font-family: 'Raleway', sans-serif;
+   color: white;
+ }
+
+.btn {
+   width: 200px;
+   margin: 2px;
+ }
+ 
+#root {
+  max-width: 600px;
+}
+
+.button-div {
+  display: block;
+  text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+#row1 {
+  margin: 0 auto;
+  padding: 8px;
+  background-color: #6456ff;
+ }
+
+ .form.control, .form-group {
+  max-width: 300px;
+} 
+
+.total {
+  padding: 10px;
+}
+
+.card {
+  width: auto;
+  max-width: 300px;
+}
+
+.button-div {
+  align-items: center;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.body {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* @media only screen and (min-width: 768px) {
+  #root {
+    max-width: 1200px;
+  }
+} */
